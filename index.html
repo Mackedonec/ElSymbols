@@ -1,0 +1,1152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Symbol's table</title>
+  </head>
+  <body>
+    <main class="main">
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Symbol</th>
+            <th>Name</th>
+            <th>Explanation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="5"
+                  y1="15"
+                  x2="25"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <circle cx="25" cy="15" r="3" fill="white" stroke="black" />
+                <circle cx="55" cy="15" r="3" fill="white" stroke="black" />
+                <line
+                  x1="55"
+                  y1="15"
+                  x2="75"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="25"
+                  y1="15"
+                  x2="55"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Switch (closed)</td>
+            <td>
+              Замкнений перемикач. Контакти з’єднані, тому струм може проходити
+              через коло.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="5"
+                  y1="15"
+                  x2="25"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <circle cx="25" cy="15" r="3" fill="white" stroke="black" />
+                <circle cx="55" cy="15" r="3" fill="white" stroke="black" />
+                <line
+                  x1="55"
+                  y1="15"
+                  x2="75"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="25"
+                  y1="15"
+                  x2="50"
+                  y2="5"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Switch (open)</td>
+            <td>
+              Розімкнений перемикач. Контакти розділені, тому струм не
+              проходить.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="10"
+                  y1="15"
+                  x2="30"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="30"
+                  y1="5"
+                  x2="30"
+                  y2="25"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="40"
+                  y1="8"
+                  x2="40"
+                  y2="22"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="40"
+                  y1="15"
+                  x2="70"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Cell</td>
+            <td>
+              Окремий гальванічний елемент, який створює електричну напругу.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <polyline
+                  points="5,15 15,10 25,20 35,10 45,20 55,10 65,20 75,15"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Resistor</td>
+            <td>Резистор обмежує силу струму в електричному колі.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="5"
+                  y1="15"
+                  x2="30"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="30"
+                  y1="5"
+                  x2="30"
+                  y2="25"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="40"
+                  y1="5"
+                  x2="40"
+                  y2="25"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="40"
+                  y1="15"
+                  x2="75"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Capacitor</td>
+            <td>
+              Конденсатор накопичує електричний заряд і тимчасово зберігає
+              енергію.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <path
+                  d="M5 15 Q10 5 15 15 T25 15 T35 15 T45 15 T55 15 T65 15 T75 15"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Inductor</td>
+            <td>Котушка індуктивності накопичує енергію у магнітному полі.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="5"
+                  y1="15"
+                  x2="75"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Wire</td>
+            <td>Провідник, який з’єднує елементи електричної схеми.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="5"
+                  y1="15"
+                  x2="25"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <rect
+                  x="25"
+                  y="10"
+                  width="30"
+                  height="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="55"
+                  y1="15"
+                  x2="75"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Resistor (rectangle)</td>
+            <td>Європейський варіант позначення резистора.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="10"
+                  y1="15"
+                  x2="20"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="20"
+                  y1="5"
+                  x2="20"
+                  y2="25"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="30"
+                  y1="8"
+                  x2="30"
+                  y2="22"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="40"
+                  y1="5"
+                  x2="40"
+                  y2="25"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="50"
+                  y1="8"
+                  x2="50"
+                  y2="22"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="50"
+                  y1="15"
+                  x2="70"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Battery</td>
+            <td>
+              Батарея складається з кількох елементів (cell) і забезпечує більшу
+              напругу.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="5"
+                  y1="15"
+                  x2="30"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <rect
+                  x="30"
+                  y="10"
+                  width="20"
+                  height="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="50"
+                  y1="15"
+                  x2="75"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Fuse</td>
+            <td>
+              Запобіжник розриває коло при надмірному струмі для захисту
+              пристроїв.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="5"
+                  y1="15"
+                  x2="25"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <rect
+                  x="25"
+                  y="10"
+                  width="30"
+                  height="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="30"
+                  y1="25"
+                  x2="50"
+                  y2="5"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="55"
+                  y1="15"
+                  x2="75"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Variable Resistor</td>
+            <td>Змінний резистор дозволяє регулювати опір у схемі.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30" viewBox="0 0 80 30">
+                <line
+                  x1="5"
+                  y1="15"
+                  x2="25"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <rect
+                  x="25"
+                  y="10"
+                  width="30"
+                  height="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="40"
+                  y1="5"
+                  x2="55"
+                  y2="25"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="55"
+                  y1="15"
+                  x2="75"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Thermistor</td>
+            <td>Резистор, опір якого змінюється залежно від температури.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <circle
+                  cx="40"
+                  cy="15"
+                  r="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <text x="40" y="19" text-anchor="middle" font-size="10">A</text>
+              </svg>
+            </td>
+            <td>Ammeter</td>
+            <td>Прилад для вимірювання сили струму.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <circle
+                  cx="40"
+                  cy="15"
+                  r="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <text x="40" y="19" text-anchor="middle" font-size="10">V</text>
+              </svg>
+            </td>
+            <td>Voltmeter</td>
+            <td>Прилад для вимірювання електричної напруги.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <circle
+                  cx="40"
+                  cy="15"
+                  r="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <text x="40" y="19" text-anchor="middle" font-size="10">M</text>
+              </svg>
+            </td>
+            <td>Motor</td>
+            <td>
+              Електродвигун, що перетворює електричну енергію на механічний рух.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <polygon
+                  points="30,10 30,20 45,15"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="45"
+                  y1="10"
+                  x2="45"
+                  y2="20"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Diode</td>
+            <td>Діод пропускає струм лише в одному напрямку.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <circle
+                  cx="40"
+                  cy="15"
+                  r="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <rect
+                  x="36"
+                  y="12"
+                  width="8"
+                  height="6"
+                  fill="none"
+                  stroke="black"
+                />
+                <line x1="25" y1="5" x2="35" y2="12" stroke="black" />
+              </svg>
+            </td>
+            <td>LDR</td>
+            <td>Фоторезистор, опір якого змінюється залежно від освітлення.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <line
+                  x1="40"
+                  y1="5"
+                  x2="40"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="25"
+                  y1="15"
+                  x2="55"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="30"
+                  y1="20"
+                  x2="50"
+                  y2="20"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="35"
+                  y1="25"
+                  x2="45"
+                  y2="25"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Ground</td>
+            <td>Спільна точка нульового потенціалу у схемі.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <path
+                  d="M25 15 Q40 0 55 15"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="25" y1="15" x2="55" y2="15" stroke="black" />
+              </svg>
+            </td>
+            <td>Buzzer</td>
+            <td>Електронний звуковий сигналізатор.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <circle
+                  cx="40"
+                  cy="15"
+                  r="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="33" y1="8" x2="47" y2="22" stroke="black" />
+                <line x1="47" y1="8" x2="33" y2="22" stroke="black" />
+              </svg>
+            </td>
+            <td>Lamp</td>
+            <td>Лампа, яка світиться при проходженні струму.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <circle cx="40" cy="15" r="10" fill="none" stroke="black" />
+                <line x1="40" y1="5" x2="40" y2="10" stroke="black" />
+                <line x1="40" y1="20" x2="40" y2="25" stroke="black" />
+                <line x1="30" y1="15" x2="35" y2="15" stroke="black" />
+                <line x1="45" y1="15" x2="50" y2="10" stroke="black" />
+              </svg>
+            </td>
+            <td>Transistor</td>
+            <td>
+              Напівпровідниковий компонент для підсилення сигналів або
+              перемикання.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <polygon
+                  points="30,10 30,20 45,15"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="45"
+                  y1="10"
+                  x2="45"
+                  y2="20"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="48" y1="8" x2="58" y2="3" stroke="black" />
+                <line x1="48" y1="22" x2="58" y2="27" stroke="black" />
+              </svg>
+            </td>
+            <td>LED</td>
+            <td>
+              Світлодіод (Light Emitting Diode). Випромінює світло, коли через
+              нього проходить електричний струм.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <line
+                  x1="10"
+                  y1="15"
+                  x2="30"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <circle cx="30" cy="15" r="3" fill="white" stroke="black" />
+                <line
+                  x1="30"
+                  y1="15"
+                  x2="50"
+                  y2="5"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="50"
+                  y1="15"
+                  x2="70"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Push Button (NO)</td>
+            <td>
+              Кнопка з нормально розімкнутими контактами (Normally Open). Коло
+              замикається лише під час натискання.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <line
+                  x1="5"
+                  y1="15"
+                  x2="25"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <rect
+                  x="25"
+                  y="10"
+                  width="30"
+                  height="10"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="40"
+                  y1="5"
+                  x2="40"
+                  y2="25"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="55"
+                  y1="15"
+                  x2="75"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Potentiometer</td>
+            <td>
+              Потенціометр — змінний резистор з трьома виводами, який
+              використовується для регулювання напруги або сигналу.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <line
+                  x1="10"
+                  y1="15"
+                  x2="70"
+                  y2="15"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="40"
+                  y1="5"
+                  x2="40"
+                  y2="25"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <circle cx="40" cy="15" r="3" fill="black" />
+              </svg>
+            </td>
+            <td>Junction</td>
+            <td>
+              Точка з'єднання проводів. Показує, що провідники електрично
+              з'єднані між собою.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <line
+                  x1="10"
+                  y1="10"
+                  x2="70"
+                  y2="20"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="10"
+                  y1="20"
+                  x2="70"
+                  y2="10"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Crossing Wires</td>
+            <td>Перехрещення проводів без електричного з'єднання.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <circle cx="40" cy="15" r="10" fill="none" stroke="black" />
+                <line x1="40" y1="5" x2="40" y2="10" stroke="black" />
+                <line x1="40" y1="20" x2="40" y2="25" stroke="black" />
+                <line x1="30" y1="15" x2="35" y2="15" stroke="black" />
+                <line x1="45" y1="15" x2="50" y2="10" stroke="black" />
+                <polygon points="48,8 52,10 47,11" fill="black" />
+              </svg>
+            </td>
+            <td>NPN Transistor</td>
+            <td>
+              NPN транзистор — використовується для підсилення сигналів або як
+              електронний перемикач.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <circle cx="40" cy="15" r="10" fill="none" stroke="black" />
+                <line x1="40" y1="5" x2="40" y2="10" stroke="black" />
+                <line x1="40" y1="20" x2="40" y2="25" stroke="black" />
+                <line x1="30" y1="15" x2="35" y2="15" stroke="black" />
+                <line x1="45" y1="15" x2="50" y2="20" stroke="black" />
+                <polygon points="52,22 48,20 53,19" fill="black" />
+              </svg>
+            </td>
+            <td>PNP Transistor</td>
+            <td>
+              PNP транзистор — працює подібно до NPN, але струм керування має
+              протилежну полярність.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <polygon
+                  points="25,5 25,25 55,15"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="15" y1="10" x2="25" y2="10" stroke="black" />
+                <line x1="15" y1="20" x2="25" y2="20" stroke="black" />
+                <line x1="55" y1="15" x2="70" y2="15" stroke="black" />
+              </svg>
+            </td>
+            <td>Operational Amplifier</td>
+            <td>
+              Операційний підсилювач (Op-Amp). Використовується для підсилення
+              сигналів та обробки аналогових даних.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <rect
+                  x="30"
+                  y="10"
+                  width="20"
+                  height="10"
+                  fill="none"
+                  stroke="black"
+                />
+                <line x1="10" y1="15" x2="30" y2="15" stroke="black" />
+                <line x1="50" y1="15" x2="70" y2="15" stroke="black" />
+              </svg>
+            </td>
+            <td>Crystal Oscillator</td>
+            <td>
+              Кварцовий резонатор. Використовується для створення стабільної
+              частоти в електронних пристроях.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="80" height="30">
+                <rect
+                  x="25"
+                  y="8"
+                  width="30"
+                  height="14"
+                  fill="none"
+                  stroke="black"
+                />
+                <line x1="10" y1="15" x2="25" y2="15" stroke="black" />
+                <line x1="55" y1="15" x2="70" y2="15" stroke="black" />
+                <line x1="40" y1="22" x2="40" y2="28" stroke="black" />
+              </svg>
+            </td>
+            <td>Relay</td>
+            <td>
+              Реле — електромеханічний перемикач, який керується електричним
+              сигналом.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <rect
+                  x="25"
+                  y="10"
+                  width="40"
+                  height="20"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="15" y1="15" x2="25" y2="15" stroke="black" />
+                <line x1="15" y1="25" x2="25" y2="25" stroke="black" />
+                <line x1="65" y1="15" x2="75" y2="15" stroke="black" />
+                <line x1="65" y1="25" x2="75" y2="25" stroke="black" />
+              </svg>
+            </td>
+            <td>Integrated Circuit (IC)</td>
+            <td>
+              Інтегральна схема — електронний компонент, що містить багато
+              транзисторів та інших елементів на одному кристалі.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <rect
+                  x="25"
+                  y="8"
+                  width="40"
+                  height="24"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="15" y1="12" x2="25" y2="12" stroke="black" />
+                <line x1="15" y1="20" x2="25" y2="20" stroke="black" />
+                <line x1="15" y1="28" x2="25" y2="28" stroke="black" />
+                <line x1="65" y1="12" x2="75" y2="12" stroke="black" />
+                <line x1="65" y1="20" x2="75" y2="20" stroke="black" />
+                <line x1="65" y1="28" x2="75" y2="28" stroke="black" />
+                <text x="45" y="22" text-anchor="middle" font-size="8">µC</text>
+              </svg>
+            </td>
+            <td>Microcontroller</td>
+            <td>
+              Мікроконтролер — програмований чип, що містить процесор, пам’ять
+              та периферію.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <path
+                  d="M20 10 L40 10 Q55 20 40 30 L20 30 Z"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="10" y1="15" x2="20" y2="15" stroke="black" />
+                <line x1="10" y1="25" x2="20" y2="25" stroke="black" />
+                <line x1="40" y1="20" x2="60" y2="20" stroke="black" />
+              </svg>
+            </td>
+            <td>AND Gate</td>
+            <td>
+              Логічний елемент AND. Вихід активний лише тоді, коли всі входи
+              активні.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <path
+                  d="M18 10 Q35 20 18 30 L38 30 Q55 20 38 10 Z"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="10" y1="15" x2="18" y2="15" stroke="black" />
+                <line x1="10" y1="25" x2="18" y2="25" stroke="black" />
+                <line x1="55" y1="20" x2="70" y2="20" stroke="black" />
+              </svg>
+            </td>
+            <td>OR Gate</td>
+            <td>
+              Логічний елемент OR. Вихід активний, якщо активний хоча б один
+              вхід.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <polygon
+                  points="20,10 20,30 45,20"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <circle cx="48" cy="20" r="3" fill="none" stroke="black" />
+                <line x1="10" y1="20" x2="20" y2="20" stroke="black" />
+                <line x1="51" y1="20" x2="65" y2="20" stroke="black" />
+              </svg>
+            </td>
+            <td>NOT Gate</td>
+            <td>Логічний інвертор. Вихід має протилежне значення до входу.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <path
+                  d="M20 10 L40 10 Q55 20 40 30 L20 30 Z"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <circle cx="43" cy="20" r="3" fill="none" stroke="black" />
+                <line x1="10" y1="15" x2="20" y2="15" stroke="black" />
+                <line x1="10" y1="25" x2="20" y2="25" stroke="black" />
+                <line x1="46" y1="20" x2="60" y2="20" stroke="black" />
+              </svg>
+            </td>
+            <td>NAND Gate</td>
+            <td>
+              Логічний елемент NAND — інверсія AND. Вихід вимкнений лише якщо
+              всі входи активні.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <path
+                  d="M18 10 Q35 20 18 30 L38 30 Q55 20 38 10 Z"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <circle cx="58" cy="20" r="3" fill="none" stroke="black" />
+                <line x1="10" y1="15" x2="18" y2="15" stroke="black" />
+                <line x1="10" y1="25" x2="18" y2="25" stroke="black" />
+                <line x1="61" y1="20" x2="75" y2="20" stroke="black" />
+              </svg>
+            </td>
+            <td>NOR Gate</td>
+            <td>Логічний елемент NOR — інверсія OR.</td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <rect
+                  x="30"
+                  y="10"
+                  width="30"
+                  height="20"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="20" y1="15" x2="30" y2="15" stroke="black" />
+                <line x1="20" y1="25" x2="30" y2="25" stroke="black" />
+                <line x1="60" y1="15" x2="70" y2="15" stroke="black" />
+                <line x1="60" y1="25" x2="70" y2="25" stroke="black" />
+              </svg>
+            </td>
+            <td>Connector / Header</td>
+            <td>
+              Роз’єм або контактна колодка для підключення проводів або інших
+              плат.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <path
+                  d="M20 20 Q25 5 30 20 T40 20 T50 20"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <path
+                  d="M50 20 Q55 5 60 20 T70 20"
+                  fill="none"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line x1="10" y1="20" x2="20" y2="20" stroke="black" />
+                <line x1="70" y1="20" x2="80" y2="20" stroke="black" />
+              </svg>
+            </td>
+            <td>Transformer</td>
+            <td>
+              Трансформатор — пристрій для передачі електричної енергії між
+              колами через магнітне поле.
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <svg width="90" height="40">
+                <line
+                  x1="20"
+                  y1="20"
+                  x2="60"
+                  y2="20"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="60"
+                  y1="20"
+                  x2="70"
+                  y2="10"
+                  stroke="black"
+                  stroke-width="2"
+                />
+                <line
+                  x1="60"
+                  y1="20"
+                  x2="70"
+                  y2="30"
+                  stroke="black"
+                  stroke-width="2"
+                />
+              </svg>
+            </td>
+            <td>Antenna</td>
+            <td>
+              Антена — використовується для передачі або прийому радіосигналів.
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+  </body>
+</html>
